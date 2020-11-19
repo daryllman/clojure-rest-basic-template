@@ -1,7 +1,11 @@
-# clojure-rest-basic-template
+# Clojure Rest Basic Template
 
-About
 Basic template to run a REST server with Ring Clojure, on clojure environment
+
+## Clojure libraries used
+
+- [Ring](https://github.com/ring-clojure/ring)
+- [Compojure](https://github.com/weavejester/compojure)
 
 ## Installation
 
