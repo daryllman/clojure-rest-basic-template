@@ -1,32 +1,33 @@
 # clojure-rest-basic-template
 
-FIXME: description
+About
+Basic template to run a REST server with Ring Clojure, on clojure environment
 
 ## Installation
 
-Download from http://example.com/FIXME.
+```
+git clone https://github.com/daryllman/clojure-rest-basic-template
+```
 
 ## Usage
 
-FIXME: explanation
+### 1. Compile to an UberJAR file
 
-    $ java -jar clojure-rest-basic-template-0.1.0-standalone.jar [args]
+```
+lein uberjar
+```
 
-## Options
+This will create 2 uberjar files in /target/uberjar
 
-FIXME: listing of options this app accepts.
+### 2. Run UberJAR file with java
 
-## Examples
+```
+java -jar target\uberjar\clojure-rest-basic-template-0.1.0-SNAPSHOT-standalone.jar [args]
+```
 
-...
+### 3. Check if its working
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Go to [http://localhost:8000](). If everything looks good, all is working fine.
 
 ## License
 
